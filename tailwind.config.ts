@@ -47,6 +47,13 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        cinema: {
+          gold: "hsl(var(--cinema-gold))",
+          "gold-dark": "hsl(var(--cinema-gold-dark))",
+          red: "hsl(var(--cinema-red))",
+          dark: "hsl(var(--cinema-dark))",
+          darker: "hsl(var(--cinema-darker))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +64,16 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        "gradient-cinema": "var(--gradient-cinema)",
+        "gradient-gold": "var(--gradient-gold)",
+        "gradient-red": "var(--gradient-red)",
+      },
+      boxShadow: {
+        cinema: "var(--shadow-cinema)",
+        gold: "var(--shadow-gold)",
+        red: "var(--shadow-red)",
       },
       borderRadius: {
         lg: "var(--radius)",
